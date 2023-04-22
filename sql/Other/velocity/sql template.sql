@@ -25,7 +25,7 @@ where true
 			on refdata.EntityId = override."fromId"
 #else
 	), issuers as (
-		select * from refdata
+		select ISIN, IssuerId from refdata
 #end
 )
 
