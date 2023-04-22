@@ -1,0 +1,9 @@
+{
+    "base_url": "https://{env}.samplesystem.com/api",
+    "endpoints": {
+        "file_upload": {
+            "path": "/v1/file-upload",
+            "method": "post"
+        }
+    }
+}
